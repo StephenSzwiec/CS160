@@ -1433,10 +1433,10 @@ II. Pointers in Depth
 	A. Pointer Variables
 		1. the value of a pointer p is the address of variable a
 		2. pointer to a pointer also works when declared with two dereferencing operators (**)
-	D. Dereferencing operator (*)
+	B. Dereferencing operator (*)
 		1. We can access to the value stored in variable pointed to by using the dereferencing operatior (*)
 		2. declaring a pointer means on
-	E. A pointer example
+	C. A pointer example
 		1. a value is declared for a, this creates a memory address for a
 		2. doubleit() takes an integer and a memory reference as arguments
 		3. we pass 9 and a's memory address to doubleit(), which then sets a to 18 using a pointer (2 * 9)
